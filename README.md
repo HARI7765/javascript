@@ -4,8 +4,9 @@
 
 data types
 ______________
-  premitive datatypes
-  _____________________
+  
+    premitive datatypes
+    _____________________
   
      1. number float and integer
      2. string

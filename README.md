@@ -45,3 +45,12 @@ ______________
     3.function
 
 two method are typecast implicit and explicit
+
+     operators  of javascript
+     ________________________
+     1.arithematic 
+     2.assigment
+     3.logical
+     4.comparison
+     5.ternary
+

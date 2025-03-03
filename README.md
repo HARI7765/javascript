@@ -1,1 +1,6 @@
 # javascript
+
+
+
+data types
+  

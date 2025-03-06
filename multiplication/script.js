@@ -1,8 +1,9 @@
-let i = parseInt(prompt("Enter a number"))
-let a = parseInt(prompt("Enter a number"))
+let i = parseInt(prompt("Enter a  first number to multiply"))
+let a = 1
 while (a<=10) {
     console.log(i*a)
     a++
 }
+
 
     

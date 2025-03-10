@@ -49,9 +49,25 @@
 // }
 
 
-let a = parseInt(prompt("Enter a number"))
-let b = parseInt(prompt("Enter a number"))
-console.log(a),console.log(typeof a)
-console.log(b),console.log(typeof b)
-alert(a),alert(typeof a)
-alert(b),alert(typeof b)
+// let a = parseInt(prompt("Enter a number"))
+// let b = parseInt(prompt("Enter a number"))
+// console.log(a),console.log(typeof a)
+// console.log(b),console.log(typeof b)
+// alert(a),alert(typeof a)
+// alert(b),alert(typeof b)
+
+
+let a = parseInt(prompt("Enter a 1st number"))
+let b = parseInt(prompt("Enter a 2nd number"))
+let sum = 0
+for (let i=a; i<=b; i++) {
+    sum = sum + i
+}
+console.log(sum)
+alert(sum)
+
+reverse of String
+sum of digits
+factorial of a number
+fibinocii series
+starting  number and ending number and push into array

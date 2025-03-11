@@ -53,6 +53,11 @@ two method are typecast implicit and explicit
      3.logical
      4.comparison
      5.ternary
+     6.bitwise
+     
+
+
+
 
      
 

@@ -1,0 +1,6 @@
+let a = document.querySelector("p")
+let b = document.querySelector("p1")
+let c = document.querySelectorAll("p2")
+console.log(a)
+console.log(b)
+console.log(c)

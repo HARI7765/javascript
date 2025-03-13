@@ -13,7 +13,31 @@
 // a.classList.remove('a2')
 
 
-let div = document.querySelector('div')
-let p = document.createElement('p')
-p.innerHTML = 'Hello World'
-div.appendChild(p)
+// let div = document.querySelector('div')
+// let p = document.createElement('p')
+// p.innerHTML = 'Hello World'
+// div.appendChild(p)
+
+// div.removeChild(p)
+
+// function myfunction(){
+//     let a = window.confirm('Are you sure?')
+//     console.log(a)
+// }
+
+
+// const btn = document.querySelector('button')
+// console.log(btn)
+// btn.onclick = function(){
+//     alert('Hello World')
+//     }  // onclick event
+// btn.onclick = () => alert('Hello ') // onclick event
+
+// const a = document.querySelector('a')
+// a.onclick = () => alert("clicked")
+
+const btn  = document.querySelector('button')
+btn.addEventListener('mouseenter',() => {
+    const p = document.querySelector('p')
+    p.style.color = 'red'
+})

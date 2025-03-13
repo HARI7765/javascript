@@ -56,6 +56,32 @@ two method are typecast implicit and explicit
      6.bitwise
      
 
+events in javascript
+____________________
+
+    mouse events and keyboard events
+    _________________________________
+
+    mouse events
+    ____________
+
+    dbl click
+    mouse down
+    mouse up
+    mouse move
+    mouse enter
+    mouse leave
+    mouse over
+    mouse out
+
+    key board events
+    _______________
+
+    key down
+    key up
+    key press
+
+
 
 
 

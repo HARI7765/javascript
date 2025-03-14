@@ -36,8 +36,35 @@
 // const a = document.querySelector('a')
 // a.onclick = () => alert("clicked")
 
-const btn  = document.querySelector('button')
-btn.addEventListener('mouseenter',() => {
-    const p = document.querySelector('p')
-    p.style.color = 'red'
-})
+// const btn  = document.querySelector('button')
+// btn.addEventListener('mouseenter',() => {
+//     const p = document.querySelector('p')
+//     p.style.color = 'red'
+// })
+
+
+// const btn = document.querySelector('button')
+// btn.addEventListener('click',() => {
+//     console.log('clicked')
+
+//     setTimeout(() => {
+//         alert ('Hello World')
+//         }, 2000)
+//         console.log('end')
+
+// })
+
+
+// setInterval(() => {
+//     console.log('Hello World')
+//     }, 1000)
+
+const p = document.querySelector('p')
+let a = 10
+const x = setInterval(() => {
+    a--
+    p.textContent = a
+    if(a === 0){
+        clearInterval(x)
+        }
+        }, 1000) // 1 second

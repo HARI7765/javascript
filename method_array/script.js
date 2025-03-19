@@ -37,9 +37,21 @@ const a = [1,2,3,4,5,6]
 // const red =a.reduce((data,item)=>data+item)
 // console.log(red) 
 
-// __________________find________________________________
+// __________________find___________________________
 
 
 // const data = a.find((item)=>item>4)
 // console.log(data) 
 // __________________________________________________
+
+
+
+
+
+// const person = {
+//     name : "john"
+// }
+// function data(job,com){
+//     console.log(job,com,this.name)
+// }
+// data.apply(person,["developer","google"])

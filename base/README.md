@@ -91,6 +91,23 @@ spraed operator
 destructure(unpacking)
 spread(expanding)
 
+inheritencce
+____________________
 
-     
+    1.classical inheritence
+     ______________________
+     1.single
+     2.multilevel
+     3.hierarchical
+     4.multiple
+     5.hybrid
+
+
+    2.prototype inheritence
+    ________________________
+
+    
+
+
+
 

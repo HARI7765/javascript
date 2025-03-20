@@ -110,4 +110,15 @@ ____________________
 
 
 
+call back and call back hell
+____________________________
+
+promise
+_____________________
+fullfill
+reject 
+pending state
+
+
+
 

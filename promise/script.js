@@ -28,4 +28,20 @@
 //         console.log('all steps completed')
 //       })
 
-const data = new promise ((resolve,reject)=>)
+const data = new Promise((resolve, reject) => {
+    if (true) {
+        resolve('resolved');
+    } else {
+        reject('rejected');
+    }
+});
+
+console.log(data);
+
+data.then((message) => {
+    console.log(message);  // Logs 'resolved' if true condition is met
+}).catch((message) => {
+    console.log(message);  // Will not be executed since the promise resolves
+}).finally(() => {
+    console.log('finally');  // Will always execute
+});
